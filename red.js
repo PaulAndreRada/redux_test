@@ -2,7 +2,6 @@ import {combineReducers, createStore } from 'redux'
 
 // actions
 const ADD_TODO = 'ADD_TODO'
-const INCREMENT_KEY = 'INCREMENT_KEY'
 
 // action creator
 function addTodo(text){
