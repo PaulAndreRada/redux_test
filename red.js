@@ -45,8 +45,8 @@ let unsubscribe = store.subscribe(() =>
 )
 
 // dispatch some actions
-store.dispatch(addTodo('make your first action'))
-store.dispatch(addTodo('second action here'))
+store.dispatch(addTodo('make your first todo'))
+store.dispatch(addTodo('second todo'))
 
 
 // Stop listening to state updates
